@@ -4,6 +4,6 @@ import org.junit.*;
 public class ConcatTest {
     @Test
     public void testConcat1(){
-        assertEquals("Hello", Concat.ConcatWord("Hello", " World!"));
+        assertEquals("Hello World!", Concat.ConcatWord("Hello", " World!"));
     }
 }
